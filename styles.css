@@ -56,9 +56,9 @@ body {
   display:none;
 }
 
-@media screen(max-width:400px){
+@media (max-width:550px){
   .input-box{
     display:inline-block;
     margin-left:auto;
     margin-right:auto;
-  }
+  }}
