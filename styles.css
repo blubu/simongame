@@ -52,13 +52,12 @@ body {
   background-color: grey;
 }
 
-.input-box{
+input {
   display:none;
 }
 
-@media (max-width:550px){
+@media screen and (max-width:600px){
   .input-box{
     display:inline-block;
-    margin-left:auto;
-    margin-right:auto;
+    margin:6% auto;
   }}
