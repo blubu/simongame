@@ -51,3 +51,14 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+.input-box{
+  display:none;
+}
+
+@media screen(max-width:400px){
+  .input-box{
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+  }
